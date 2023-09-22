@@ -6,9 +6,9 @@ const figlet = require('figlet');
 
 const connection = mysql.createConnection({
   host: 'localhost',
-  port: 3306,
+  port: 3001,
   user: 'root',
-  password: process.env.DB_PASSWORD,
+  password: 'water',
   database: 'employee_DB',
 });
 
